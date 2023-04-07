@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+  .cardy{
+	margin-top: 0;
+	margin-left: 5%;
+	height: 390px;
+	width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+	border-radius: 4px;
+}
+
+.cardy:hover{
+  box-shadow: 0 20px 26px 0 rgba(23, 1, 1, 0.2);
+}
+img{
+	height:170px;
+	width: 250px;
+	border-radius: 4px;
+}
+img:hover{
+	opacity: 0.7;
+}
+.cardy h2{
+padding: 10px;
+margin-top: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:20px;
+}
+.cardy p{
+	padding: 5px;
+  margin-top: 0;
+}
+</style>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>A</span>nchal <span>M</span>aurya</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#" data-after="Home">Home</a></li>
+            <li><a href="skills.html" data-after="Service">Skills</a></li>
+            <li><a href="projects.html" data-after="Projects">Projects</a></li>
+            <li><a href="about.html" data-after="About">About</a></li>
+            <li><a href="contact.html" data-after="Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Pro<span>jec</span>ts</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
+          magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
+          voluptatum explicabo!</p>
+  <div class="container">
+  <!-- card 1 -->
+  <div class="cardy">
+    <div>
+      <a href="#"><img src="./img/chromeEx.jpg"></a>
+      <h2>Text Summarizer Chrome extension</h2>
+      <p>Chrome extension summarise youtube transcript</p>
+    </div>
+  </div>
+
+    <!-- card 2 -->
+    <div class="cardy">
+      <div>
+        <a href="#"><img src="./img/facial_recognition.jpg"></a>
+        <h2>Face Recognition Attendance System</h2>
+        <p>It is web based System automatically identify 
+          and verify individuals based on their facial characteristics.</p>
+      </div>
+    </div>
+
+      <!-- card 3 -->
+  <div class="cardy">
+    <div>
+      <a href="#"><img src="./img/campus.jpg"></a>
+      <h2>Placement Management System</h2>
+      <p>It is a web based For Campus Placement management</p>
+    </div>
+  </div>
+
+    <!-- card 4 -->
+    <div class="cardy">
+      <div>
+        <a href="#"><img src="./img/resume.jpg"></a>
+        <h2>Resume Analyser</h2>
+        <p>It is a web based analyse resume and give rating to resume</p>
+      </div>
+    </div>
+</div>
+</section>
+</body>
+</html>
